@@ -1,0 +1,10 @@
+﻿Console.WriteLine(" Hello C# ");
+Console.WriteLine("Name=: Osman Arslan!");
+Console.WriteLine("Departement:Computer Engineering");
+Console.WriteLine("year: second year ");
+Console.WriteLine("data and time:" + DateTime.Now);
+Console.Write("enter the temperature in celsius:");
+double celsius = Convert.ToDouble(Console.ReadLine());
+double fahrenheit = (celsius * 9 / 5) + 32;
+Console.WriteLine("Temperature in Fahrenheit: " + fahrenheit);
+Console.WriteLine();
